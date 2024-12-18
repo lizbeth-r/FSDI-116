@@ -1,0 +1,42 @@
+/* phone */
+@media
+    /* screen width is 600px or less  */
+    screen and (max-width: 600px){
+        .center-row {
+            flex-direction: column;
+        }
+    }
+
+/* Small Screens */
+@media (max-width:640px) {
+    html { 
+        font-size: 12px;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+
+    nav-options {
+        flex-direction: column;
+        margin: 1.5rem 0;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 2rem 0px;
+    }
+}
+
+/* tablet */
+@media 
+    /* screen width is 600px or less */
+    screen and (max-width: 1007px){
+        .center-row{
+            flex-direction: column;
+        }
+
+        html{
+            font-size: 13px;
+        }    
+    }
